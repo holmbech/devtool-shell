@@ -1,6 +1,6 @@
-description = 'Spring Shell Example'
 apply plugin: 'base'
 apply plugin: 'java'
+apply plugin: 'groovy'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.0'
     compile "org.springframework.shell:spring-shell:$springShellVersion"
     testCompile "junit:junit:$junitVersion"
     runtime "log4j:log4j:$log4jVersion"

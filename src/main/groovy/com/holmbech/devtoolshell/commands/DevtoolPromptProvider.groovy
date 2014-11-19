@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.holmbech.devtoolshell.commands;
+package com.holmbech.devtoolshell.commands
 
-import org.springframework.core.Ordered;
-import org.springframework.core.annotation.Order;
-import org.springframework.shell.plugin.support.DefaultPromptProvider;
-import org.springframework.stereotype.Component;
+import org.springframework.core.Ordered
+import org.springframework.core.annotation.Order
+import org.springframework.shell.plugin.support.DefaultPromptProvider
+import org.springframework.stereotype.Component
 
 /**
  * @author Jarred Li
