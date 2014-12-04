@@ -24,7 +24,7 @@ Version: $version"""
     }
 
     public String getWelcomeMessage() {
-        return "Welcome to Devtool Shell";
+        return "Welcome to Devtool Shell. Type help for list of commands and/or use tab completion";
     }
 
     @Override
